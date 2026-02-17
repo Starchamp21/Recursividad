@@ -9,8 +9,8 @@ public class Ejercicio3 {
     }
 
     public static void main (String[] args) {
-        int [] v1 = {11, 22, 33};
-        int [] v2 = {44, 55, 66};
+        int [] v1 = {1, 2, 3};
+        int [] v2 = {4, 5, 6};
         System.out.println(ProductoEscalar(v1, v2, v1.length));
     }
 }

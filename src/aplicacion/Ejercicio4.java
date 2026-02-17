@@ -9,8 +9,8 @@ public class Ejercicio4 {
     }
 
     public static void main (String[] args) {
-        int n = 7;
-        int m = 4;
+        int n = 2;
+        int m = 3;
         System.out.println(Potencia(n, m));
     }
 }
