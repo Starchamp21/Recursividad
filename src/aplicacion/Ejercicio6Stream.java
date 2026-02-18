@@ -11,11 +11,13 @@ public class Ejercicio6Stream {
         memoria.add(0); // (Posición - 2)
 
         // (x es el número anterior (Posición - 1))
-        return Stream.iterate(1, (x) -> {
+        IntStream.iterate(1, (x) -> {
             int num = x + memoria.get(memoria.size() - 1);
             memoria.add(x);
             return num;
-        }).limit(N);
+        }).limit(N).forEach((x) -> System.out.println(x));
+
+        return 1;
         */
     }
 
