@@ -5,6 +5,7 @@ import java.util.stream.*;
 public class Ejercicio4Stream {
     public static int Potencia(int n, int m) {
         return IntStream.range(0, m).map(i -> n).reduce(1, (x, y) -> x * y);
+        // return IntStream.iterate(n, (x) -> {return x;}).limit(m).reduce(1, (x, y) -> x * y);
     }
 
     public static void main (String[] args) {
